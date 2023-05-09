@@ -1,0 +1,27 @@
+input{
+    width: 360px;
+    height: 50px;
+    border: none;
+    outline: none;
+
+    padding: 30px;
+
+    border-radius: 28px;
+    font-size: 1rem;
+    font-family: "Lato", "sans-serif";
+}
+
+input.ligth{
+    transition: 0.3s;
+    background: #f0f8ff;
+    box-shadow:  21px 21px 42px #b9bfc4,
+                 -21px -21px 42px #ffffff;
+    color: #2c2c2c;
+}
+input.dark{
+    transition: 0.3s;
+    background: #121216;
+    box-shadow:  -14px -14px 25px #0f0f12,
+                14px 14px 25px #15151a;
+    color: #dddddd;
+}

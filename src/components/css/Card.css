@@ -1,0 +1,164 @@
+.card{
+    position: relative;
+    width: 500px;
+    height: 490px;
+
+    border-radius: 28px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Lato", "sans-serif";
+}
+
+.card.ligth{
+    transition: 0.3s;
+    background: #f0f8ff;
+    box-shadow:  21px 21px 42px #b9bfc4,
+                 -21px -21px 42px #ffffff;
+}
+.card.dark{
+    transition: 0.3s;
+    background: #121216;
+    box-shadow:  -14px -14px 25px #0f0f12,
+                 14px 14px 25px #15151a;
+}
+
+.list{
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 90%;
+    height: 130px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.list.ligth{
+    transition: 0.3s;
+    background: #f0f8ff;
+    box-shadow: inset 8px 8px 16px #e6eef5,
+                inset -8px -8px 16px #faffff;
+}
+.list.dark{
+    transition: 0.3s;
+    background: #121216;
+    box-shadow: inset 10px 10px 20px #0e0e11,
+                inset -10px -10px 20px #16161b;
+}
+
+.mini-card{
+    border-radius: 2px;
+    width: 90px;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    
+}
+
+.mini-card.ligth{
+    transition: 0.3s;
+    background: #f0f8ff;
+    box-shadow:  5px 5px 10px #d3dae0,
+                -5px -5px 10px #ffffff;
+}
+.mini-card.dark{
+    transition: 0.3s;
+    background: #121216;
+    box-shadow:  10px 10px 28px #0f0f12,
+                -10px -10px 28px #15151a;
+}
+
+h1{
+    font-size: 3rem;
+    height: 20%;
+}
+
+.ligth h1{
+    color: #2c2c2c;
+}
+.dark h1{
+    color: #dadada;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.ligth h2{
+    color: #5e5c5c;
+}
+.dark h2{
+    color: #a0a0a0;
+}
+
+h5{
+    font-size: 0.8rem;
+}
+
+.ligth h5{
+    color: #646464;
+}
+.dark h5{
+    color: #9c9c9c;
+}
+
+
+h6{
+    font-size: 0.9rem;
+}
+
+.ligth h6{
+    color: #525252;
+}
+.dark h6{
+    color: #858484;
+}
+
+img{
+    margin-top: 5%;
+}
+
+.measurement{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    
+    top: 5px;
+    right: -15%;
+
+    border-radius: 12px;
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+    padding-right: 2px;
+    transition: 0.3s;
+}
+
+.measurement.ligth{
+    transition: 0.3s;
+    background: #f0f8ff;
+    box-shadow:  6px 6px 15px #8e9296,
+                -6px -6px 15px #ffffff;
+    color: #646464;
+}
+.measurement.dark{
+    transition: 0.3s;
+    background: #121216;
+    box-shadow:  6px 6px 16px #070709,
+                -6px -6px 16px #1d1d23;
+    color: #9c9c9c;
+}
